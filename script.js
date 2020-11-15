@@ -1,3 +1,20 @@
+var frame = document.getElementById("frame");
+
+
+
+
+
+function link1(){
+  frame.src="https://pixabay.com/photo-2845763/"
+}
+function link2(){
+  frame.src="https://pixabay.com/photo-3126513/"
+}
+function link3(){
+  frame.src="https://pixabay.com/photo-3114729/"
+}
+
+
 const quoteContainer = document.getElementById('quote-container');
 const quoteText = document.getElementById('quote');
 const authorText = document.getElementById('author');
@@ -62,6 +79,7 @@ function tweetQuote() {
 //Event Listeners
 newQuoteBtn.addEventListener('click', getQuote);
 twitterBtn.addEventListener('click', tweetQuote);
+
 
 // On Load
 getQuote();
