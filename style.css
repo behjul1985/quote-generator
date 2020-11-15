@@ -12,7 +12,8 @@ body {
     min-height: 100vh;
     /* vh is viewport height that is the full height of the entire window we are in - eg.
     stretch wallpaper */
-    background-color: #faf9f9;
+    /* background-color: #faf9f9; */
+    background-image: url(Assets/bgimage.jpg);
     color: black;
     font-family: Montserrat, sans-serif;
     font-weight: 700;
@@ -20,6 +21,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100%;
 }
 
 .quote-container {
